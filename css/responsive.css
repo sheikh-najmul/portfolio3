@@ -1,0 +1,265 @@
+/* large device */
+@media(min-width: 992px) and (max-width: 1199px) {
+    header #banner .name h1 {
+        font-size: 85px;
+    }
+
+    header #banner .intro {
+        margin-top: 35%;
+    }
+
+    #client .comment p {
+        font-size: 22px;
+        line-height: 38px;
+    }
+}
+
+/* medium device */
+@media(min-width: 768px) and (max-width: 991px) {
+    .title h2 {
+        font-size: 30px;
+    }
+
+    header #menubar .navbar .navbar-nav .nav-item {
+        padding: 0 10px;
+    }
+
+    header #banner .name h1 {
+        font-size: 60px;
+    }
+
+    header .man-img img {
+        right: 54%;
+        height: 70%;
+    }
+
+    header #banner .intro {
+        margin-top: 18%;
+    }
+
+    header .social-links ul li a i {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+
+    #about .about-content {
+        margin-top: 0;
+    }
+
+    #about .about-content .content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #about .about-content .counter ul li {
+        font-size: 14px;
+    }
+
+    #about .about-content .counter ul {
+        margin-right: 40px;
+    }
+
+    #service .service-item .service-icon h4 {
+        font-size: 20px;
+    }
+
+    #skill .skillbar .time p {
+        font-size: 12px;
+    }
+
+    #client .comment {
+        padding: 20px;
+    }
+
+    #client .comment p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #contact .contact-info .i-text {
+        margin: 8px 0;
+    }
+}
+
+/* small device */
+@media(min-width: 576px) and (max-width: 767px) {
+    .title h2 {
+        font-size: 30px;
+    }
+
+    header #menubar .navbar .navbar-nav .nav-item .nav-link {
+        line-height: 30px;
+        text-align: center;
+    }
+
+    header #banner .name h1 {
+        font-size: 60px;
+        margin-top: 0;
+    }
+
+    header .man-img img {
+        display: none;
+    }
+
+    header #banner .intro {
+        margin-top: 0;
+    }
+
+    header .social-links ul li a i {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+
+    #about .about-img {
+        width: 60%;
+    }
+
+    #about .about-content {
+        margin-top: 10%;
+    }
+
+    #about .about-content .content h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    #about .about-content .counter ul li {
+        font-size: 14px;
+    }
+
+    #about .about-content .counter ul {
+        margin-right: 40px;
+    }
+
+    #service .service-item .service-icon h4 {
+        font-size: 20px;
+    }
+
+    #skill .skillbar {
+        margin-bottom: 30px;
+    }
+
+    #skill .skillbar .time p {
+        font-size: 14px;
+    }
+
+    #client .cs {
+        padding-right: 15px !important;
+    }
+
+    #client .comment {
+        padding: 20px;
+    }
+
+    #client .comment p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #client .image {
+        padding-left: 15px;
+    }
+
+    #contact .contact-info .i-text {
+        margin: 8px 0;
+    }
+}
+
+/* extra small device */
+@media(min-width: 320px) and (max-width: 575px) {
+    .title h2 {
+        font-size: 26px;
+    }
+
+    header #menubar .navbar .navbar-nav .nav-item .nav-link {
+        line-height: 30px;
+        text-align: center;
+    }
+
+    header #banner .name h1 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+
+    header .man-img img {
+        display: none;
+    }
+
+    header #banner .intro {
+        margin-top: 0;
+    }
+
+    header .social-links ul li a i {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+
+    #about .about-img {
+        width: 80%;
+    }
+
+    #about .about-content {
+        margin-top: 10%;
+    }
+
+    #about .about-content .content h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #about .about-content .counter ul li {
+        font-size: 14px;
+    }
+
+    #about .about-content .counter ul {
+        margin-right: 40px;
+    }
+
+    #service .service-item .service-icon h4 {
+        font-size: 20px;
+    }
+
+    #portfolio .p-menu {
+        display: block;
+    }
+
+    #skill .skillbar {
+        margin-bottom: 30px;
+    }
+
+    #skill .skillbar .time p {
+        font-size: 14px;
+    }
+
+    #client .cs {
+        padding-right: 15px !important;
+    }
+
+    #client .comment {
+        padding: 20px;
+    }
+
+    #client .comment p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #client .image {
+        padding-left: 15px;
+    }
+
+    #contact .contact-info .i-text {
+        margin: 8px 0;
+    }
+
+    footer #address .email::after {
+        display: none;
+    }
+
+    footer #address p {
+        text-align: center;
+    }
+}
